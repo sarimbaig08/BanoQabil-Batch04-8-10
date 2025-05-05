@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(82, 82, 82); */
+}
+.parentDiv{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    /* display: flex;
+    justify-content: center;
+    align-items: top; */
+    border-radius: 5px;
+    overflow: hidden;
+    /* position: relative; */
+}
+.child{
+    position: sticky;
+    top: 0;
+}
+.child svg{
+    height: 30px;
+    width: 30px;
+   
+    /* top:100px; */
+    /* right: 0px; */
+    /* background-color: rgb(41, 41, 66); */
+    
+}
+.parentDiv img{
+    height: 100px;
+    width: 100%;
+    
+}
+.stickyDiv{
+    position: sticky;
+    top: 10px;
+    background-color: burlywood;
+}
+footer{
+    background-color: #F8FAF9;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 20px; */
+    align-items: center;
+    padding: 0 20px;
+}
+footer .tryOlxApp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.separator{
+    height: 136px;
+    width: 2px;
+    background-color: rgba(0,47,52,.2);
+}
+.imgWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.imgWrapper img{
+    height: 40px;
+    width: 128px;
+}
+.subFooter{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+}
+.subFooter ul{
+    list-style-type: none;
+}
