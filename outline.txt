@@ -1,0 +1,26 @@
+illegal names   _ $
+
+concatenation
+
+preincrement, postincrement
+
+prompt, +prompt
+
+if, else
+
+
+class06, jaffar
+
+
+let name;
+let user123;
+let $amount;
+let _privateVar;
+let camelCaseName;
+
+
+let 123name;       // ❌ starts with number
+let user-name;     // ❌ dash not allowed
+let first name;    // ❌ space not allowed
+let function;      // ❌ reserved word
+let @price;        // ❌ special character

@@ -1,0 +1,37 @@
+section{
+    display: flex;
+    gap: 5px;
+}
+section div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(39, 37, 37);
+}
+ h5{
+    font-size: 40px;
+    font-weight: bold;
+    color: brown;
+}
+
+@media (max-width:425px){
+    section{
+        flex-wrap: wrap;
+    }
+    h5{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:320px){
+    section{
+        align-items: center;
+        justify-content: center;
+    }
+    section div{
+        width: 250px;
+    }
+    h5{
+        font-size: 20px;
+        text-align: center;
+    }
+}
